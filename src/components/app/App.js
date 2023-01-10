@@ -1,6 +1,6 @@
 import AppHeader from "../appHeader/AppHeader";
 import {lazy, Suspense} from 'react';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Spinner from "../spinner/Spinner";
 
 const Page404 = lazy(() => import('../pages/404'));
